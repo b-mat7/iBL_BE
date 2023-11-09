@@ -14,4 +14,4 @@ server.use((req, res, next) => {
   next()
 })
 
-server.listen(PORT, ()=> console.log(`Running Btc on ${PORT}`))
+server.listen(PORT, ()=> console.log(`Running on ${PORT}`))
