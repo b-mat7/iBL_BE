@@ -3,6 +3,17 @@
 import express from 'express'
 import 'dotenv/config'
 
+/*
+import {clubs} from "./xToSort/clubs.js"
+import {createSchedule} from "./xToSort/schedule.js"
+import {matchCalc} from "./xToSort/matchDay.js"
+import {seasonTable} from "./xToSort/table.js"
+
+// console.log(createSchedule(clubs))
+// let result = matchCalc(clubs[0], clubs[1])
+console.log(seasonTable(clubs))
+*/
+
 const server = express()
 const PORT = process.env.PORT
 
